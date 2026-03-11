@@ -174,16 +174,3 @@ Passwords must be **strong**:
 ## Security
 
 Passwords are never stored in plain text. The app uses **PBKDF2WithHmacSHA1** with a random 16-byte salt for secure password hashing.
-
----
-
-## Grading Breakdown
-
-| Component | Points |
-|---|---|
-| Setup (step 2.4 verification) | 5 |
-| Part 1 — Design (E/R diagram + `create.sql`) | 15 |
-| Part 1 — Implementation (`create_patient`, `login_patient`) | 30 |
-| Part 2 — Implementation (`search_caregiver_schedule`, `reserve`, `show_appointments`, `logout`) | 75 |
-| **Total** | **125** |
-| Extra Credit (strong passwords + cancel) | up to +12 |
